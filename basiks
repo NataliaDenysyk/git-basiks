@@ -1,6 +1,6 @@
 command = input('Введите действие: ')
 while command != '*' and command != '/' and command != '+' and command != '-':
-    print('Ошибка: такой операции не существует. Попробуйте ещё раз.')
+    print('Ошибка: такой операции не существует. Попробуйте ещё раз!')
 count = 1
 number = int(input(f"Введите число {count}: "))
 result_str = str(number)
